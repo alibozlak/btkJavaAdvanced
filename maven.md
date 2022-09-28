@@ -42,9 +42,9 @@
 
 ---
 
-**pom.xml** dosyasına yeni bir **dependency** eklenip ve **dosya kaydedildiği anda** :
+**pom.xml** dosyasına yeni bir **dependency** eklenip  **dosya kaydedildiği anda** :
 1. Maven yüklenecek olan paket için **önce local repositoryde var mı diye bakar**. 
 2. **Eğer localde yoksa remote repositoryden local repositorye indirir**.
 3. Local'den projeye dahil eder.
 
-> ### Local repo (Windows OS) : **C:/users/ea/.m2/repository**
+> ### Local repo (Windows OS) : **C:/users/userName/.m2/repository**
