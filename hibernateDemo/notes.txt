@@ -1,0 +1,6 @@
+
+1) hibernate.cfg.xml dosyasına eklenecek :
+<property name="hibernate.temp.use_jdbc_metadata_defaults">false</property>
+
+2) Main.java'ya eklenecek :
+Session session  = factory.openSession();
